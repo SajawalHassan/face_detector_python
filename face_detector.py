@@ -31,4 +31,6 @@ while True:
     if key==27:
         break
 
+webcam.release()
+
 print("Program executed sccsessfully!")
