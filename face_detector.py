@@ -27,7 +27,7 @@ while True:
     cv.imshow("Face Decetor app", frame)
     key = cv.waitKey(1)
 
-    # Kill program if q is pressed
+    # Kill program if esc is pressed
     if key==27:
         break
 
