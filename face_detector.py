@@ -6,6 +6,8 @@ from random import randrange
 trained_face_data = cv.CascadeClassifier("haarcascade_frontalface_default.xml")
 
 # Read video
+
+# If you want to have webcam then replace file name with 0
 webcam = cv.VideoCapture("vid_test.3gp")
 
 while True:
