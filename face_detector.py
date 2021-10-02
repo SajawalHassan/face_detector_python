@@ -12,6 +12,9 @@ while True:
     # Read currunt frame
     successful_frame_read, frame = webcam.read()
 
+    # Make Video grayscale
+    grayscaled_vid = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
+
     # Show vid
-    cv.imshow("Face Decetor app", frame)
+    cv.imshow("Face Decetor app", grayscaled_vid)
     cv.waitKey(150)
