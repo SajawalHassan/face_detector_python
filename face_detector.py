@@ -28,7 +28,7 @@ while True:
     key = cv.waitKey(1)
 
     # Kill program if q is pressed
-    if key==81 or key==113:
+    if key==27:
         break
 
 print("Program executed sccsessfully!")
