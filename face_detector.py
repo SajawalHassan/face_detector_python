@@ -26,4 +26,4 @@ while True:
 
     # Show vid
     cv.imshow("Face Decetor app", frame)
-    cv.waitKey(150)
+    cv.waitKey(1)
